@@ -1,5 +1,5 @@
 version: "3.8" #도커 컴포즈 구문 버전
-service: #실행할 컨테이너를 나열하는 섹션
+services: #실행할 컨테이너를 나열하는 섹션
 
   catalog-service: #catalog-service 컨테이너를 기술하는 섹션
     depend_on:
